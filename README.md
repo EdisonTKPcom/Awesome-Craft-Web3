@@ -6,7 +6,7 @@
 
 ![Tools](https://img.shields.io/badge/tools-17-6366f1?style=for-the-badge)
 [![Categories](https://img.shields.io/badge/categories-6-0ea5e9?style=for-the-badge)](#contents)
-[![Combined stars](https://img.shields.io/badge/combined_stars-30.8k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
+[![Combined stars](https://img.shields.io/badge/combined_stars-92.1k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
 [![Stars](https://img.shields.io/github/stars/EdisonTKPcom/Awesome-Craft-Web3?style=for-the-badge&color=22c55e)](https://github.com/EdisonTKPcom/Awesome-Craft-Web3/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/EdisonTKPcom/Awesome-Craft-Web3?style=for-the-badge&color=ec4899)](https://github.com/EdisonTKPcom/Awesome-Craft-Web3/commits/main)
 
@@ -15,8 +15,6 @@
 Deploying forked DeFi code needs independent audits and carries real financial risk. This list is not investment, trading or yield advice.
 
 Deploying or forking DeFi and trading protocol code carries real financial risk. Bugs, economic design failures, oracle issues, key compromise and chain reorganizations can cause irreversible loss of funds. Code being public is not an audit. If you deploy contracts that will hold or route value, get an independent security audit, write tests and incident procedures, and do not treat this list as investment, trading or yield advice. Some repositories use BUSL or grant no copyright licence at all; those are not freely forkable for commercial or production use until a change date, grant or conversion applies. Execution clients, chain-specific SDKs and security tools are covered in more depth in the Ethereum, BSC, Solana and Hyperliquid lists.
-
-Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [Awesome Craft Ethereum](https://github.com/EdisonTKPcom/Awesome-Craft-Ethereum), [Awesome Craft BSC](https://github.com/EdisonTKPcom/Awesome-Craft-BSC), [Awesome Craft Solana](https://github.com/EdisonTKPcom/Awesome-Craft-Solana), [Awesome Craft Hyperliquid](https://github.com/EdisonTKPcom/Awesome-Craft-Hyperliquid).
 
 ## Contents
 
@@ -27,6 +25,8 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [
 - [Indexers and explorers](#indexers-and-explorers)
 - [Development frameworks and languages](#development-frameworks-and-languages)
 - [Self-hostable infrastructure](#self-hostable-infrastructure)
+- [Related lists](#related-lists)
+- [Star history](#star-history)
 
 ## Dashboard
 
@@ -34,26 +34,31 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [
 <tr>
 <td align="center"><h2>17</h2>listed projects</td>
 <td align="center"><h2>6</h2>categories</td>
-<td align="center"><h2>30.8k</h2>combined GitHub stars</td>
-<td align="center"><h2>12.7k</h2>combined forks</td>
-<td align="center"><h2>6/7</h2>pushed in the last 30 days</td>
-<td align="center"><h2>3</h2>languages</td>
+<td align="center"><h2>92.1k</h2>combined GitHub stars</td>
+<td align="center"><h2>29.4k</h2>combined forks</td>
+<td align="center"><h2>14/17</h2>pushed in the last 30 days</td>
+<td align="center"><h2>7</h2>languages</td>
 </tr>
 </table>
 
-Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted repositories only. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates. Star badges next to GitHub entries update live.
+**FACT** (snapshot taken 2026-11-15, GitHub API): 17 listed projects, 17 of them on GitHub with public repository statistics. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates.
+
+**ESTIMATE**: 92.1k combined GitHub stars and 29.4k combined forks, summed from those API counts on the snapshot date. Live star badges next to GitHub entries may differ.
 
 ### 🏆 Leaderboard
 
 <table>
 <tr><th>Rank</th><th>Project</th><th>Kind</th><th align="right">Stars</th><th></th></tr>
-<tr><td align="center">🥇</td><td><b>Foundry</b></td><td>EVM toolchain</td><td align="right">10.8k</td><td><code>████████████████████</code></td></tr>
-<tr><td align="center">🥈</td><td><b>Hardhat</b></td><td>EVM toolchain</td><td align="right">8.5k</td><td><code>████████████████</code></td></tr>
-<tr><td align="center">🥉</td><td><b>Uniswap v3 core</b></td><td>AMM contracts</td><td align="right">5.1k</td><td><code>█████████</code></td></tr>
-<tr><td align="center">4</td><td><b>Uniswap v2 core</b></td><td>AMM contracts</td><td align="right">3.4k</td><td><code>██████</code></td></tr>
-<tr><td align="center">5</td><td><b>Uniswap v4 core</b></td><td>AMM contracts</td><td align="right">2.6k</td><td><code>█████</code></td></tr>
-<tr><td align="center">6</td><td><b>Balancer v2</b></td><td>AMM contracts</td><td align="right">364</td><td><code>█</code></td></tr>
-<tr><td align="center">7</td><td><b>Balancer v3</b></td><td>AMM contracts</td><td align="right">140</td><td><code>█</code></td></tr>
+<tr><td align="center">🥇</td><td><b>Solidity</b></td><td>Contract language</td><td align="right">25.8k</td><td><code>████████████████████</code></td></tr>
+<tr><td align="center">🥈</td><td><b>Kubo</b></td><td>IPFS node</td><td align="right">17.2k</td><td><code>█████████████</code></td></tr>
+<tr><td align="center">🥉</td><td><b>Foundry</b></td><td>EVM toolchain</td><td align="right">10.8k</td><td><code>████████</code></td></tr>
+<tr><td align="center">4</td><td><b>Hardhat</b></td><td>EVM toolchain</td><td align="right">8.5k</td><td><code>███████</code></td></tr>
+<tr><td align="center">5</td><td><b>Vyper</b></td><td>Contract language</td><td align="right">5.2k</td><td><code>████</code></td></tr>
+<tr><td align="center">6</td><td><b>Uniswap v3 core</b></td><td>AMM contracts</td><td align="right">5.1k</td><td><code>████</code></td></tr>
+<tr><td align="center">7</td><td><b>Blockscout</b></td><td>Block explorer</td><td align="right">4.8k</td><td><code>████</code></td></tr>
+<tr><td align="center">8</td><td><b>Uniswap v2 core</b></td><td>AMM contracts</td><td align="right">3.4k</td><td><code>███</code></td></tr>
+<tr><td align="center">9</td><td><b>The Graph Node</b></td><td>Indexer</td><td align="right">3.2k</td><td><code>██</code></td></tr>
+<tr><td align="center">10</td><td><b>Uniswap v4 core</b></td><td>AMM contracts</td><td align="right">2.6k</td><td><code>██</code></td></tr>
 </table>
 
 
@@ -62,17 +67,17 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 ```mermaid
 pie showData
     title Combined GitHub stars by category
-    "DEX and AMM protocol code" : 11509
-    "Perpetual and order-book style protocol code" : 0
-    "Self-custody accounts" : 0
-    "Indexers and explorers" : 0
-    "Development frameworks and languages" : 19290
-    "Self-hostable infrastructure" : 0
+    "DEX and AMM protocol code" : 12629
+    "Perpetual and order-book style protocol code" : 449
+    "Self-custody accounts" : 2192
+    "Indexers and explorers" : 9378
+    "Development frameworks and languages" : 50241
+    "Self-hostable infrastructure" : 17185
 ```
 
 ### Licences
 
-![GPL-3.0](https://img.shields.io/badge/GPL--3.0-3-64748b?style=flat-square) ![Custom](https://img.shields.io/badge/Custom-2-64748b?style=flat-square) ![None](https://img.shields.io/badge/None-1-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-1-64748b?style=flat-square)
+![Custom](https://img.shields.io/badge/Custom-8-64748b?style=flat-square) ![GPL-3.0](https://img.shields.io/badge/GPL--3.0-4-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-2-64748b?style=flat-square) ![None](https://img.shields.io/badge/None-1-64748b?style=flat-square) ![LGPL-3.0](https://img.shields.io/badge/LGPL--3.0-1-64748b?style=flat-square) ![MIT](https://img.shields.io/badge/MIT-1-64748b?style=flat-square)
 
 "Custom" or "None" means GitHub could not match a standard SPDX licence, often because of extra terms or an undeclared licence. Read the project licence before you use it commercially.
 
@@ -110,6 +115,28 @@ pie showData
 ## Self-hostable infrastructure
 
 - [Kubo](https://github.com/ipfs/kubo) - The Go IPFS implementation, used to run an IPFS node. Some older contributions are MIT-only; later contributions are dual MIT and Apache-2.0. Read the repository licence file for the path you ship. ![Stars](https://img.shields.io/github/stars/ipfs/kubo?style=flat-square&label=%E2%AD%90)
+
+## Related lists
+
+Other lists in the Awesome Craft series:
+
+- [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft) - A curated list of open-source, self-hostable alternatives to popular SaaS tools.
+- [Awesome Craft Agents](https://github.com/EdisonTKPcom/Awesome-Craft-Agents) - A curated list of open-source chat apps, coding agents, self-hosted agent bots, workflow automation and image-generation UIs.
+- [Awesome Craft AI](https://github.com/EdisonTKPcom/Awesome-Craft-AI) - A curated list of open-source, self-hostable AI runtimes, servers, Hugging Face libraries and related infrastructure.
+- [Awesome Craft BSC](https://github.com/EdisonTKPcom/Awesome-Craft-BSC) - A curated list of verified open-source clients, SDKs, dev tools and protocol code for BNB Smart Chain and opBNB.
+- [Awesome Craft CUDA](https://github.com/EdisonTKPcom/Awesome-Craft-CUDA) - A curated list of open-source CUDA learning material, kernel libraries, tooling and portability projects.
+- [Awesome Craft DeepSeek](https://github.com/EdisonTKPcom/Awesome-Craft-DeepSeek) - A curated list of official DeepSeek repositories and open-source harnesses, serving engines, eval tools and fine-tuning stacks that work with DeepSeek models.
+- [Awesome Craft DevOps](https://github.com/EdisonTKPcom/Awesome-Craft-DevOps) - A curated list of open-source, self-hostable alternatives to popular DevOps and hosting SaaS tools.
+- [Awesome Craft Ethereum](https://github.com/EdisonTKPcom/Awesome-Craft-Ethereum) - A curated list of verified open-source Ethereum clients, SDKs, dev frameworks, wallets and security tools.
+- [Awesome Craft EV](https://github.com/EdisonTKPcom/Awesome-Craft-EV) - A curated list of open-source software and hardware for electric vehicles and charging.
+- [Awesome Craft Hardware](https://github.com/EdisonTKPcom/Awesome-Craft-Hardware) - A curated list of open-source tools for PCB, FPGA, ASIC and chip design.
+- [Awesome Craft Hyperliquid](https://github.com/EdisonTKPcom/Awesome-Craft-Hyperliquid) - A curated list of verified open-source SDKs, node tools, analytics and community libraries for the Hyperliquid ecosystem.
+- [Awesome Craft Malaysia](https://github.com/EdisonTKPcom/Awesome-Craft-Malaysia) - A curated list of open-source tools useful to Malaysian SMEs, with verified MyInvois support called out separately.
+- [Awesome Craft Solana](https://github.com/EdisonTKPcom/Awesome-Craft-Solana) - A curated list of verified open-source Solana clients, SDKs, frameworks, explorers and program libraries.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/chart?repos=EdisonTKPcom/Awesome-Craft-Web3&amp;type=Date)](https://www.star-history.com/#EdisonTKPcom/Awesome-Craft-Web3&Date)
 
 ## Contributing
 
